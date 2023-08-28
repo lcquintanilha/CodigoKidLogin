@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #e4bb00;
+    margin-top: 150px;
+    font-weight: 300;
+}
+
+input {
+    padding-left: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.containerLeft {
+    display: inline-flex;
+    border-style: none;
+    width: 640px;
+    margin-left: 250px;
+}
+
+.containerRight {
+    width: 640px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+#logotype {
+    width: 250px;
+    height: 250px;
+}
+
+.label {
+    position: absolute;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    width: 640px;
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+input:focus ~ label {
+    top:-10px;
+    font-size:12px;
+  }
+
+#btnLogin {
+    font-size: 14.5px;
+    border-radius: 100px;
+    color: white;
+    background-color: #28a745;
+    font-weight: 400;
+    text-align: center;
+    min-width: 150px;
+    padding: 10px 85px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    transition: all .3s cubic-bezier(.25,.8,.25,1);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.option {
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.option:hover {
+    text-decoration: underline;
+  }
+
+#btnLogin:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
+    cursor: pointer;
+}
+
+#optionLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14.5px;
+}
+
+.inputLogin {
+    width: 353px;
+    height: 3rem;
+    margin: 0 0 20px;
+    border-bottom: solid 2px;
+    border-color: white;
+    color: white;
+    font-weight: 200;
+    background-color: #e4bb00;
+}
+
+.icon {
+    display: flex;
+    width: 30px;
+    height: 32.3809px;
+    margin-top: 10px;
+}
+
+.containerIcon {
+    display: flex;
+}
+  
+.inputLogin.filled {
+    background-color: #e4bb00;
+}
+
+.field {
+    position: relative;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #e4bb00;
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+#logoCK {
+    width: 150px;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: calc(50vw - 270px); 
+    margin-right: calc(50vw - 270px);
+}
+
+.iconDiv {
+    display:flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+
+.icon {
+    width: 70%;
+}
+
+#registerButtonAnchor {
+    text-decoration: none;
+    color: white;
+}
+
+#registerButton {
+    border-radius: 35px;
+    background-color: #25A745;
+    width: 254px;
+    height: 44px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 495px;
+    height: 45px;
+    margin: 0 0 40px;
+    border-bottom: solid 2px;
+    border-color: white;
+    color: white;
+    font-weight: 200;
+    background-color: #e4bb00;
+
+}
+
+input:focus {
+    outline: 0;
+  }
+
+label {
+    width: 495px;
+    margin-top: 10px;
+    font-size: 15px;
+    position: absolute;
+    transition: 0.2s ease all;
+    
+}
+
+.inputDiv {
+    color: white;
+    display: inline-table;
+    position: relative;
+}
+
+.glueDiv {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+label:hover {
+    cursor: text;
+}
+
+button:hover{
+    cursor: pointer;
+}

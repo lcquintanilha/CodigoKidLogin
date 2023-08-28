@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index/styles/styles.css" media="screen" />
+    <title>Portal de Ensino</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="containerLeft" id="logoLogin">
+                <figure><img src="./index/assets/LogoDirBrancoPadrao.svg" id="logotype"></figure>
+            </div>
+            <div class="containerRight" id="login">
+                <div id="msgError"></div>
+                <div class="field">
+                    <label for="username" class="label" id="userLabel">Usuário:</label><br>
+                    <div class="containerIcon"><img src="./index/assets/login_icon.jpg" class="icon" id="loginIcon"><input type="text" class="inputLogin" id="username"></div>
+                </div>
+                <div class="field">
+                    <label for="password" class="label" id="passwordLabel">Senha:</label><br>
+                    <div class="containerIcon"><img src="./index/assets/password_icon.jpg" class="icon" id="passwordIcon"><input type="password" class="inputLogin" id="password"></div>
+                </div>
+                <div id="optionLogin">
+                    <button id="btnLogin" onclick="enter()">ENTRAR</button>
+                    <a class="option" href="./forgotPassword.html">Esqueceu sua senha?</a>
+                    <a href="./voucher.html" class="option">Tenho um voucher</a>
+                    <a href= "./policy.html" class="option">Termos de Uso e Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index/scripts/scripts.js"></script>
+</body>
+</html>

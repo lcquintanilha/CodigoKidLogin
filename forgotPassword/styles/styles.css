@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #e4bb00;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 930px;
+    height: 540px;
+    margin: 20px auto 100px auto;
+}
+
+.containerMiddle {
+    width: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.containerButton {
+    width: 930px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}
+
+#logoImg {
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 17.5px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    width: 930px;
+    border-top: solid 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding-top: 10px;  
+}
+
+label {
+    font-size: 11px;
+    position: absolute;
+    transition: 0.2s ease all;
+    padding-left: 4px;
+}
+
+span {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#userIcon {
+    width: 25px;
+}
+
+input {
+    background-color: #e4bb00;
+    border-bottom: solid 1px white;
+    width: 400px;
+    height: 44px;
+    padding-left: 5px;
+}
+
+#btnSent {
+    background-color: #28A745;
+    border-radius: 100px;
+    width: 267px;
+    height: 42.8px;
+    margin-bottom: 20px;
+}
+
+#btnBack {
+    background-color: #e4bb00;
+
+}
+
+.containerImg {
+    margin-bottom: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.containerLabel {
+    display: flex;
+    position: relative;
+}
